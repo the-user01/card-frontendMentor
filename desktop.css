@@ -1,0 +1,60 @@
+body{
+    background-color:  hsl(233, 47%, 7%);
+  }
+
+  section{
+    background-color: hsl(244, 38%, 16%);
+    width: 900px;
+    height: 400px;
+    text-align: center;
+    position: relative;
+    left: 15%;
+    margin-top: 115px;
+    border-radius: 10px;
+  }
+
+  main{
+    display: flex;
+    color: white;
+  }
+
+  .first-part h3{
+    font-size: 40px;
+    color: hsl(0, 0%, 100%) ;
+  }
+
+  .insight{
+    color: hsl(277, 64%, 61%);
+  }
+
+  .first-part p{
+    font-size: 15px;
+    padding:0 20px 0 20px;
+    color: hsla(0, 0%, 100%, 0.75);
+  }
+
+  .first-part img{
+    height: 400px;
+    width: 450px;
+    border-radius: 10px;
+    z-index: 1;
+  }
+
+  .second-part{
+    width: 400px;
+    margin-top: -125px;
+    padding-left: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .second-part h3{
+    font-size: 22px;
+    color: hsl(0, 0%, 100%) ;
+  }
+
+  .second-part p{
+    font-size: 15px;
+    color:hsla(0, 0%, 100%, 0.75) ;
+  }
